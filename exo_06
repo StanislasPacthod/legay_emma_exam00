@@ -1,0 +1,9 @@
+void ft_print_reverse_alphabet()
+    {
+        char[] alphabet = "zyxwvutsrqponmlkjihgfedcba".ToCharArray();
+
+        foreach (char letter in alphabet)
+        {
+            Console.WriteLine(letter);
+        }
+    }
