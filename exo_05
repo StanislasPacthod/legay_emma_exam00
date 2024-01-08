@@ -1,0 +1,9 @@
+void ft_print_alphabet()
+    {
+        char[] alphabet = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
+
+        foreach (char letter in alphabet)
+        {
+            Console.WriteLine(letter);
+        }
+    }
